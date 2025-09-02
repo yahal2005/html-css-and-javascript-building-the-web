@@ -2,9 +2,9 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/universal
 {
   "name": "HTML, CSS, and JavaScript: Building the Web",
-  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+  //  "image": "mcr.microsoft.com/devcontainers/universal:2-linux",
   "features": {
-    "ghcr.io/devcontainers/features/git:1": {},
+    "ghcr.io/devcontainers/features/git:1": {}
   },
   "customizations": {
     "vscode": {

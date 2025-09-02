@@ -19,6 +19,6 @@
   },
   "onCreateCommand": "echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
   "postCreateCommand": "pip3 install mkdocs-material",
-  "postAttachCommand": "git pull --all",
+  "postAttachCommand": "git pull --all"
   // DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
 }

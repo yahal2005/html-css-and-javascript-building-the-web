@@ -1,4 +1,4 @@
-/* 
+
 body {
 	font-family: helvetica, arial, sans-serif;
 }
@@ -7,6 +7,7 @@ h1 {
 	color: #3a241d;
 	text-align: center;
 }
+
 
 #left-container {
 	left: 0px;
@@ -37,6 +38,7 @@ h1 {
 	max-height: 150%;
 	z-index: 2;
 }
+
 
 .jar-walls {
 	height: 80%;
@@ -101,4 +103,28 @@ h1 {
 	position: absolute;
 	bottom: 45%;
 	left: 5%;
-} */
+} 
+
+@keyframes slide-in {
+	0%{
+		transform: translate(-100%);
+	}
+
+	100%{
+		transform: translatex(0);
+	}
+}
+
+.plant {
+	animation: slide-in 2s ease-in;
+}
+
+.plant {
+	transition: width 2s, height 2s, background-color 1s;
+}
+
+.plant:hover{
+	width: 200px;
+	height: 200px;
+	background-color: goldenrod;
+}
